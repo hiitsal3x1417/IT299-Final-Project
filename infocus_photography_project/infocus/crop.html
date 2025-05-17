@@ -1,0 +1,105 @@
+<!-- crop.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Cropping Tool - InFocus Photography</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="logo">
+            <img src="images/logo.png" alt="InFocus Logo">
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="touchup.html">Touchup</a></li>
+            <li><a href="crop.html">Crop</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+            <li class="cart"><a href="cart.html">🛒 (2)</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero crop-hero">
+        <h1>Photo Cropping Tool</h1>
+        <p>Customize your prints</p>
+    </header>
+
+    <section class="crop-tool">
+        <div class="crop-container">
+            <div class="crop-area">
+                <img src="images/crop-bg.jpg" alt="Photo to Crop" class="crop-image">
+                <div class="crop-handle top-left"></div>
+                <div class="crop-handle top-right"></div>
+                <div class="crop-handle bottom-left"></div>
+                <div class="crop-handle bottom-right"></div>
+            </div>
+            
+            <div class="crop-controls">
+                <div class="aspect-ratio">
+                    <h3>Aspect Ratio</h3>
+                    <select>
+                        <option>Free Form</option>
+                        <option>4:3</option>
+                        <option>16:9</option>
+                        <option>1:1 (Square)</option>
+                    </select>
+                </div>
+
+                <div class="rotation-controls">
+                    <h3>Rotation</h3>
+                    <button class="rotate-btn">↺ 90°</button>
+                    <button class="rotate-btn">↻ 90°</button>
+                </div>
+
+                <div class="preview-sizes">
+                    <h3>Common Sizes</h3>
+                    <div class="size-options">
+                        <button>4x6</button>
+                        <button>5x7</button>
+                        <button>8x10</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="crop-actions">
+            <button class="cta-button">Save Crop</button>
+            <button class="cta-button secondary">Reset</button>
+        </div>
+    </section>
+
+        <!-- Chat Widget -->
+        <div class="chat-widget">
+            <div class="chat-header">Need Help? Chat Now!</div>
+            <div class="chat-body">
+                <div class="chat-message">Hi there! How can we help you today?</div>
+                <input type="text" placeholder="Type your message...">
+            </div>
+        </div>
+    
+        <!-- Footer -->
+        <footer class="main-footer">
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>📞 (555) 123-4567<br>
+                📧 info@infocusphoto.com<br>
+                🏢 123 Photography Lane, NYC</p>
+            </div>
+        </footer>
+</body>
+</html>
